@@ -12,6 +12,8 @@
 // let a = 20;
 // let b = 20;
 // console.log("Sum of 20 and 20 = " + a + b);  ans = 2020
+// console.log("Sum of 20 and 20 = " + (a + b)); ans = 40
+
 
 // let a = 10;
 // let b = 20;
@@ -24,8 +26,8 @@
 // Type Coercion
 // console.log("10" - 5);  ans = 5
 
-// let age = prompt("enter your age")
-// console.log(typeof(age));  ans = String
+let age = prompt("enter your age")
+console.log(typeof(age));  ans = String
 
 // Type casting / Type conversion
 // let age = Number(prompt("enter your age"))
