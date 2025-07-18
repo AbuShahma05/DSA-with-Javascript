@@ -1,4 +1,4 @@
-// merge sorted Array homework
+// merge sorted Array 
 let nums1 = [1, 3, 5];
 let nums2 = [2, 4, 6];
 
@@ -26,5 +26,3 @@ while (j < nums2.length) {
 
 console.log(merged); 
 
-// array right rotation by k step home work
-// Remove duplicates from sorted Array homework
