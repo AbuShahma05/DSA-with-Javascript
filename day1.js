@@ -70,3 +70,5 @@ let removeDup = (nums) => {
 let k = removeDup(nums);
 console.log("k =", k);
 console.log("nums =", nums);
+
+

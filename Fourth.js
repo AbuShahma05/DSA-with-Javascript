@@ -20,16 +20,6 @@ for (let index = 1; index <= n; index++) {
 }
 console.log(sum);
 
-// Reverse a string using a loop
-
-let Input = "Hello";
-let result = "";
-
-for (let i = Input.length - 1; i >= 0; i--) {
-  result += Input[i];
-}
-
-console.log("Reversed string", result);
 
 // Check if a number is a prime
 

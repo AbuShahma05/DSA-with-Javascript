@@ -26,8 +26,8 @@
 // Type Coercion
 // console.log("10" - 5);  ans = 5
 
-let age = prompt("enter your age")
-console.log(typeof(age));  ans = String
+// let age = prompt("enter your age")
+// console.log(typeof(age));  ans = String
 
 // Type casting / Type conversion
 // let age = Number(prompt("enter your age"))
@@ -49,10 +49,13 @@ console.log(typeof(age));  ans = String
 // let a = 10;
 // let b = 20;
 
+// let a  = 20
+// let b = 10
+
 // a = a + b;
 // b = a - b
 // a = a - b
-
+// console.log(`value of a = ${a} and value of b = ${b}`);
 // console.log(a); ans = 20
 // console.log(b); ans = 10
 
@@ -63,7 +66,7 @@ console.log(typeof(age));  ans = String
 
 // [a, b] = [b, a]
 
-// console.log(a, b); ans = a - 20, b - 10
+// console.log(a, b); ans = a = 20, b = 10
 
 // arithmetic operator
 // let a = 5676;
@@ -78,7 +81,7 @@ console.log(typeof(age));  ans = String
 // console.log(Math.floor(5.9));
 // console.log(Math.trunc(5.9));
 // console.log(Math.pow(3,4));
-// console.log(Math.sqrt(25));
+// console.log(Math.sqrt(81));
 // console.log(Math.cbrt(27));
 // console.log(Math.abs(-5.8));
 // console.log(Math.max(5.1, -3, 10));
@@ -107,8 +110,8 @@ console.log(typeof(age));  ans = String
 // console.log(a);
 
 // let a = 10++
-// console.log(a);
+// console.log(a);  give = error
 
 // let a = 10
 // let b = ++(a++)
-// console.log(b);
+// console.log(b);     give = error

@@ -1,13 +1,13 @@
 // max element in an array
 let a = [1,2,65,34,45]
-let max = a[0]
+let max = 0
 
-for(let i = 1; i < a.length; i++){
-    if(a[i] > max)
-        max = a[i]
+for(let i = 0; i <a.length; i++){
+  if(max < a[i])
+    max = a[i]
 }
+console.log(max);
 
- console.log(max);
 
 //  check an array is sorted or not
 
@@ -20,6 +20,14 @@ for (let i = 0; i < arr1.length - 1; i++) {
   }
   console.log("array is sorted");
   return true;
+}
+
+let arr5 = [1,2,3,4,5,6,7,8,9]
+for(let i  = 0; i<arr5.length; i++){
+  if(arr5[++i] === arr5[i + 1]){
+    console.log("array is sorted");
+    
+  }
 }
 
 // check an array is sorted or not
