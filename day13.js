@@ -25,7 +25,6 @@ Constraints:
 - s consists of English letters, digits, symbols, and spaces.
 */
 
-// Answer:
 function lengthOfLongestSubstring(s) {
     let start = 0;
     let maxLength = 0;

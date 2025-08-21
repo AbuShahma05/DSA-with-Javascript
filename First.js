@@ -110,8 +110,8 @@
 // console.log(a);
 
 // let a = 10++
-// console.log(a);  give = error
+// console.log(a);  
 
 // let a = 10
 // let b = ++(a++)
-// console.log(b);     give = error
+// console.log(b);     
