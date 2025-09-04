@@ -72,3 +72,12 @@ console.log("k =", k);
 console.log("nums =", nums);
 
 
+let arr1 = [1,2,3,4,5]
+
+for(let i = 0; i < arr1.length-1; i++){
+  if(arr1[i] > arr1[i + 1]){
+    console.log("arry is not sorted ");
+    break;
+  } else console.log("arry is sorted ");
+  
+}

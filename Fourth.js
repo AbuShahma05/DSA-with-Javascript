@@ -16,7 +16,7 @@ let n = 5;
 let sum = 0;
 
 for (let index = 1; index <= n; index++) {
-  sum += index;
+  sum = sum + index;
 }
 console.log(sum);
 
