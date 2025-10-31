@@ -39,3 +39,18 @@ largestElement(arr2);
 -infinity ??
 try to find smallest number in an array 
 */
+
+let arr3 = [2, 5, 8, 9, 1];
+let smallestNum = +Infinity;
+
+function findSmallestSum(arr3) {
+  for (let i = 0; i < arr3.length; i++) {
+    if (smallestNum > arr3[i]) {
+      smallestNum = arr3[i];
+    }
+  }
+  console.log('smallest num is:', smallestNum);
+  
+}
+
+findSmallestSum(arr3)
