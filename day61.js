@@ -1,16 +1,16 @@
-// let n = 4;
+let n = 4;
 
-// function printStar(n) {
-//   for (let i = 0; i < n; i++) {
-//     let row = "";
-//     for (let j = 0; j < n; j++) {
-//       row = row + "*";
-//     }
-//     console.log(row);
-//   }
-// }
+function printStar(n) {
+  for (let i = 0; i < n; i++) {
+    let row = "";
+    for (let j = 0; j < n; j++) {
+      row = row + "*";
+    }
+    console.log(row);
+  }
+}
 
-// printStar(n);
+printStar(n);
 
 let star = 12;
 
