@@ -9,8 +9,7 @@ function removeDuplicate(nums) {
       nums[x] = nums[i];
     }
   }
-   return nums.slice(0, x + 1);
+  return nums.slice(0, x + 1);
 }
 
 console.log(removeDuplicate(nums));
-
