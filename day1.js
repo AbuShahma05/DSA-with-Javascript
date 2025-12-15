@@ -51,6 +51,8 @@ if (isSorted) {
   console.log("The array is NOT sorted.");
 }
 
+// Remove Duplicates
+
 let nums = [1, 1, 2];
 
 let removeDup = (nums) => {

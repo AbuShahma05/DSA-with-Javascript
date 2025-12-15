@@ -1,14 +1,14 @@
-let age = Number(prompt("enter you age"));
+let age = Number(prompt("Enter Your Age"));
 
 if (isNaN(age)) {
-  console.log("write a valid number");
+  console.log("Write a valid number");
 } else if (age >= 18) {
   console.log("You can vote");
 } else {
-  console.log("you cant vote");
+  console.log("You cant vote");
 }
 
-// Discount quesiton
+// Discount Question
 
 let amount = Number(prompt("Total amount"));
 

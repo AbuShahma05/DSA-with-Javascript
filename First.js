@@ -49,9 +49,6 @@
 // let a = 10;
 // let b = 20;
 
-// let a  = 20
-// let b = 10
-
 // a = a + b;
 // b = a - b
 // a = a - b

@@ -46,6 +46,3 @@ function reverse(i, j){
     }
 }
 
-// Remove duplicates from sorted Array homework
-// merge sorted Array homework
-// array right rotation by k step home work
