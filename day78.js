@@ -9,7 +9,7 @@ var findMissNum = function (nums) {
   for (let i = 0; i < n; i++) {
     sum = sum + nums[i];
   }
-  let total = n * (n + 1)/ 2;
+  let total = n * (n + 1) / 2;
   return total - sum;
 };
 

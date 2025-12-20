@@ -1,6 +1,8 @@
-// Recursion is a programming technique where a function calls itself repeatedly to
-// solve a problem
+/* 
+Recursion is a programming technique where a function calls itself 
+repeatedly to solve a problem
 
+*/
 enjoy();
 function enjoy() {
   console.log("pawri ho rhi hai");
