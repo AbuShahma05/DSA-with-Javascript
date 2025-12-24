@@ -86,3 +86,12 @@ function printOneToN(n) {
 
 printOneToN(5);
 
+function print(x, n) {
+  if (x > n) return;
+
+  console.log(x);
+  x = x + 1;
+  print(x, n);
+}
+
+print(1, 5);
