@@ -1,3 +1,4 @@
+// Sum of all numbers in array
 let arr = [5, 3, 2, 1, 0];
 
 function sum(n) {
