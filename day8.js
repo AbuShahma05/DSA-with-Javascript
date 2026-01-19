@@ -1,4 +1,4 @@
-// ✅ Problem: Valid Parenthesis String with Wildcards
+// Problem: Valid Parenthesis String with Wildcards
 // Given a string s containing just the characters '(', ')', and '*',
 // determine if the input string is valid.
 //

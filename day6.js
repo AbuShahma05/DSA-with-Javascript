@@ -5,6 +5,10 @@ let k = 0;
 
 for (let i = 0; i < sortedArray.length; i++) {
   if (sortedArray[i] !== sortedArray[i + 1]) {
+    // uniqueArray.push(sortedArray[i])
+    /* 
+    push work the same like k++
+    */
     uniqueArray[k] = sortedArray[i];  
     k++;
   }

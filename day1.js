@@ -1,8 +1,8 @@
 // Find the Maximum and Minimum Element in an Array
 
 let arr = [3, 1, 4, 1, 5, 9];
-let min = arr[0];
-let max = arr[0];
+let min = +Infinity;
+let max = -Infinity;
 
 for (let i = 1; i < arr.length; i++) {
   if (arr[i] < min) {
@@ -33,7 +33,7 @@ while (start < end) {
 }
 console.log(input);
 
-// Check if the Array is Sorted
+// Check if the Array is Sorted in ascending order
 
 let input1 = [1, 2, 3, 4];
 let isSorted = true;

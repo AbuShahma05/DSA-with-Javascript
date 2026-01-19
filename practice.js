@@ -1,25 +1,14 @@
-// function printNm(n){
-//     if(n === 0) return
+let arr = [3, 1, 4, 1, 5, 9];
+let min = +Infinity;
+let max = -Infinity;
 
-//     console.log(n);
-//     printNm(n-1)
-// }
-
-// let n = 5;
-// printNm(5)
-
-// var printNumber = function(l){
-//     if(l == 0) return
-
-//     console.log(l);
-//     printNumber(l-1)
-// }
-
-// let l = 6
-// printNumber(l)
-
-var factorial = function(n){
-    if(n == 1) return 1
-    return n*factorial(n-1)
+for (let i = 1; i < arr.length; i++) {
+  if (arr[i] < min) {
+    min = arr[i];
+  } else if (arr[i] > max) {
+    max = arr[i];
+  }
 }
-console.log(factorial(5));
+
+console.log("Minimum:", min);
+console.log("Maximum:", max);

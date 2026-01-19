@@ -11,7 +11,7 @@ console.log(sum);
 // min of array
 
 let num1 = [10, 20, 50, 30, 2];
-let min = num1[0];
+let min = +Infinity;
 
 for (let i = 0; i < num1.length; i++) {
   if (num1[i] < min) {

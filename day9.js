@@ -31,7 +31,7 @@ var lengthOfTheFirstWord = function(s) {
     return length;
 };
 
-// ✅ Test Cases
+// Test Cases
 console.log(lengthOfTheFirstWord("   Hello World"));         // Output: 5
 console.log(lengthOfTheFirstWord("   fly me to the moon"));  // Output: 3
 console.log(lengthOfTheFirstWord("luffy is still joyboy"));  // Output: 5
