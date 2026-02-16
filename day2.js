@@ -11,14 +11,15 @@ console.log(sum);
 // min of array
 
 let num1 = [10, 20, 50, 30, 2];
-let min = +Infinity;
+let min = Infinity;
 
 for (let i = 0; i < num1.length; i++) {
   if (num1[i] < min) {
     min = num1[i];
-    console.log(min);
   }
 }
+
+console.log(min);
 
 // second max element find out
 
@@ -37,9 +38,9 @@ for (let i = 2; i < arr.length; i++) {
 console.log(smax);
 
 let num4 = [10, 20, 30, 40, 50];
-let sum1  = 0;
+let sum1 = 0;
 
 for (let i = 0; i < num4.length; i++) {
   sum1 = sum1 + num4[i];
 }
-  console.log(sum1);
+console.log(sum1);

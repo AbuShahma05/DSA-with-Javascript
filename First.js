@@ -14,7 +14,6 @@
 // console.log("Sum of 20 and 20 = " + a + b);  ans = 2020
 // console.log("Sum of 20 and 20 = " + (a + b)); ans = 40
 
-
 // let a = 10;
 // let b = 20;
 // console.log("sum of 10 and 20 = " + (a + b));  ans = 30
@@ -107,8 +106,8 @@
 // console.log(a);
 
 // let a = 10++
-// console.log(a);  
+// console.log(a);
 
 // let a = 10
 // let b = ++(a++)
-// console.log(b);     
+// console.log(b);

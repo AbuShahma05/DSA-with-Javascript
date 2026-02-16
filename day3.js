@@ -1,13 +1,17 @@
-// reverse array without extra space
+/* 
+reverse array without extra space
+
+used two pointer technique in this 
+*/
 let arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-let i = 0;
-let j = arr1.length - 1;
-while (i < j) {
-  let temp = arr1[i];
-  arr1[i] = arr1[j];
-  arr1[j] = temp;
-  i++;
-  j--;
+let start = 0;
+let end = arr1.length - 1;
+while (start < end) {
+  let temp = arr1[start];
+  arr1[start] = arr1[end];
+  arr1[end] = temp;
+  start++;
+  end--;
 }
 console.log(arr1);
 
