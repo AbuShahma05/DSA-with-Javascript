@@ -4,19 +4,19 @@ write a function that returns the number of negative number in an array
 
 let arr = [2, -9, 17, 0, 1, -10, -4, 8];
 
-let count = 0;
-
 function returnNegativeElementSum(arr) {
+  let count = 0;
+
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] < 0) {
       count++;
     }
   }
 
-  console.log("Number of negative number is:", count);
+  return count;
 }
 
-returnNegativeElementSum(arr);
+console.log("Number of negative number is:", returnNegativeElementSum(arr));
 
 let arr2 = [5, 0, 10, 8, 17, 0];
 let largest = arr2[0];
@@ -49,8 +49,7 @@ function findSmallestSum(arr3) {
       smallestNum = arr3[i];
     }
   }
-  console.log('smallest num is:', smallestNum);
-  
+  console.log("smallest num is:", smallestNum);
 }
 
-findSmallestSum(arr3)
+findSmallestSum(arr3);
