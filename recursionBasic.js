@@ -138,3 +138,44 @@ function palindromeCheck(str) {
 
 palindromeCheck("ABCDCBA");
 palindromeCheck("ABCDCBAsdkh");
+
+/* 
+Return nth Fibonacci number using recursion.
+
+Input: N = 5
+Output: 5
+so last index is 5 so return 5
+*/
+
+function fibonacci(n4) {
+  if (n4 === 0) return 0;
+  if (n4 === 1) return 1;
+
+  return fibonacci(n4 - 1) + fibonacci(n4 - 2);
+}
+
+let n4 = 5;
+console.log(fibonacci(n4));
+
+/* 
+Print Fibonacci Series up to Nth term
+
+Input: N = 5
+Output: 0 1 1 2 3 5
+Explanation: 0 1 1 2 3 5 is the fibonacci series up to 5th term.(0 based indexing)
+*/
+
+function printFibonacci(n5) {
+  let a = 0;
+  let b = 1;
+
+  for (let i = 0; i <= n5; i++) {
+    console.log(a);
+    let next = a + b;
+    a = b;
+    b = next;
+  }
+}
+
+let n5 = 5;
+printFibonacci(n5);
