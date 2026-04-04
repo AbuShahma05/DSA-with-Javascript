@@ -67,7 +67,7 @@ key → value
 
 Now you only store what exists.
 
-ollision (fun part)
+Collisions : 
 
 Sometimes two numbers go to same index.
 
