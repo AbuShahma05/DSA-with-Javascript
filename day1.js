@@ -38,20 +38,42 @@ console.log(input);
 
 // Check if the Array is Sorted in ascending order
 
-let input1 = [1, 2, 3, 4];
-let isSorted = true;
-
-for (let i = 0; i < input1.length - 1; i++) {
-  if (input1[i] > input1[i + 1]) {
-    isSorted = false;
-    break;
+function isArraySorted(arr) {
+  for (let i = 0; i < arr.length - 1; i++) {
+    if (arr[i] > arr[i + 1]) {
+      return false; // stop immediately if wrong
+    }
   }
+  return true; // only runs if everything is fine
 }
 
-if (isSorted) {
+let input1 = [1, 2, 3, 4];
+
+let result = isArraySorted(input1);
+
+if (result) {
   console.log("The array is sorted.");
 } else {
   console.log("The array is NOT sorted.");
+}
+
+// Check if the array is sorted in descending order 
+
+function isArraySortedDescending(arr) {
+  for (let i = 0; i < arr.length - 1; i++) {
+    if (arr[i] < arr[i + 1]) {
+      return false; // violation of descending order
+    }
+  }
+  return true;
+}
+
+let input1 = [9, 7, 5, 3];
+
+if (isArraySortedDescending(input1)) {
+  console.log("The array is sorted in descending order.");
+} else {
+  console.log("The array is NOT sorted in descending order.");
 }
 
 // Remove Duplicates
@@ -75,12 +97,3 @@ let removeDup = (nums) => {
 let k = removeDup(nums);
 console.log("k =", k);
 console.log("nums =", nums);
-
-let arr1 = [1, 2, 3, 4, 5];
-
-for (let i = 0; i < arr1.length - 1; i++) {
-  if (arr1[i] > arr1[i + 1]) {
-    console.log("arry is not sorted ");
-    break;
-  } else console.log("arry is sorted ");
-}
