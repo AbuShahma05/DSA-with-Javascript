@@ -20,7 +20,6 @@ for (let index = 1; index <= n; index++) {
 }
 console.log(sum);
 
-
 // Check if a number is a prime
 
 let inputnum = 7;
@@ -39,10 +38,8 @@ if (inputnum <= 1) {
 
 console.log(primenum ? `${inputnum} is Prime` : `${inputnum} is Not Prime`);
 
-
 // Print the multiplication table of a number
 
-for(let i = 5; i<=50; i += 5){
-    console.log(i);
-    
+for (let i = 5; i <= 50; i += 5) {
+  console.log(i);
 }

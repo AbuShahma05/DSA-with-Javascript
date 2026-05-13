@@ -31,7 +31,7 @@ if (a > b) {
 
 // Input a student's score (0–100) and print the grade:
 
-let studentScore = -96
+let studentScore = -96;
 
 if (studentScore >= 90) {
   console.log("Grade A");
@@ -42,55 +42,43 @@ if (studentScore >= 90) {
 } else if (studentScore >= 60 && studentScore <= 69) {
   console.log("Grade D");
 } else if (studentScore >= 0 && studentScore <= 59) {
-    console.log("Fail");
-    
-}else{
-    console.log("Invalid Number");
-    
+  console.log("Fail");
+} else {
+  console.log("Invalid Number");
 }
 
 // Check Leap Year
 
-let year = 4008
+let year = 4008;
 
-if (year % 4 === 0  || year % 400 === 0) {
-    console.log(`${year} is leap year`);
-    
-}else{
-    console.log(`${year} is not leap year`);
-    
+if (year % 4 === 0 || year % 400 === 0) {
+  console.log(`${year} is leap year`);
+} else {
+  console.log(`${year} is not leap year`);
 }
 
 // Check Sign of Number
 
-let number = 21
+let number = 21;
 
 if (number > 0) {
-    console.log(`${number} is positive number`);
-    
-}else if (number < 0) {
-    console.log(`${number} is negative number`);
-    
-}else{
-    console.log(`${number}`);
-    
+  console.log(`${number} is positive number`);
+} else if (number < 0) {
+  console.log(`${number} is negative number`);
+} else {
+  console.log(`${number}`);
 }
 
 // Max of Three Numbers
 
-let num1 = 10
-let num2 = 20
-let num3 = 30
+let num1 = 10;
+let num2 = 20;
+let num3 = 30;
 
 if (num1 > num2 && num1 > num3) {
-    console.log(`num1 = ${num1} is greater`);
-    
-}else if (num2 > num1 && num2 > num3) {
-        console.log(`num2 = ${num2} is greater`);
-        
-}else{
-    console.log(`num3 = ${num3} is greater`);
-    
+  console.log(`num1 = ${num1} is greater`);
+} else if (num2 > num1 && num2 > num3) {
+  console.log(`num2 = ${num2} is greater`);
+} else {
+  console.log(`num3 = ${num3} is greater`);
 }
-
-

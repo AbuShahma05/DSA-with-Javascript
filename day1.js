@@ -1,7 +1,7 @@
 // Find the Maximum and Minimum Element in an Array
 
 let arr = [3, 1, 4, 1, 5, 9];
-let min = +Infinity;
+let min = Infinity;
 let max = -Infinity;
 
 for (let i = 0; i < arr.length; i++) {
@@ -57,7 +57,7 @@ if (result) {
   console.log("The array is NOT sorted.");
 }
 
-// Check if the array is sorted in descending order 
+// Check if the array is sorted in descending order
 
 function isArraySortedDescending(arr) {
   for (let i = 0; i < arr.length - 1; i++) {
