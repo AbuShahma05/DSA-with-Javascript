@@ -9,14 +9,13 @@ for (let i = 0; i < sortedArray.length; i++) {
     /* 
     push work the same like k++
     */
-    uniqueArray[k] = sortedArray[i];  
+    uniqueArray[k] = sortedArray[i];
     k++;
   }
 }
 
-console.log("Original:", sortedArray);  
-console.log("Unique:", uniqueArray);    
-
+console.log("Original:", sortedArray);
+console.log("Unique:", uniqueArray);
 
 // Array right rotation by k steps
 
@@ -38,5 +37,5 @@ for (let i = 0; i < n - steps; i++) {
   j++;
 }
 
-console.log("Original:", arr);        
+console.log("Original:", arr);
 console.log("Rotated Right by 2:", rotated);

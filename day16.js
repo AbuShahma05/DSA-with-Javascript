@@ -26,25 +26,24 @@ console.log(factorial(5));
 
 // Sum of first N even numbers
 function sumOfEvenNumber(n) {
-  if (n === 0) return 0; 
-  return 2 * n + sumOfEvenNumber(n - 1); 
+  if (n === 0) return 0;
+  return 2 * n + sumOfEvenNumber(n - 1);
 }
 
-console.log(sumOfEvenNumber(4)); 
-
+console.log(sumOfEvenNumber(4));
 
 // Reverse printing a string using recursion
 function reverseString(str, index = str.length - 1) {
-  if (index < 0) return ""; 
-  return str[index] + reverseString(str, index - 1); 
+  if (index < 0) return "";
+  return str[index] + reverseString(str, index - 1);
 }
 
-console.log(reverseString("hello")); 
+console.log(reverseString("hello"));
 
 // sum of first odd number
-function sumofOddnumber (n){
-  if ( n === 0) return 0
-  return( 2*n -1 ) + sumofOddnumber(n-1)
+function sumofOddnumber(n) {
+  if (n === 0) return 0;
+  return 2 * n - 1 + sumofOddnumber(n - 1);
 }
 
 console.log(sumofOddnumber(4));

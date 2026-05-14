@@ -38,28 +38,28 @@ Use two hash maps to ensure one-to-one mapping in both directions.
 function isIsomorphic(s, t) {
   if (s.length !== t.length) return false;
 
-  const stoT = {}
-  const ttoS = {}
+  const stoT = {};
+  const ttoS = {};
 
-  for(let i = 0; i<s.length; i++){
-    const sChar = s[i]
-    const tChar = t[i]
+  for (let i = 0; i < s.length; i++) {
+    const sChar = s[i];
+    const tChar = t[i];
 
     // Check s → t mapping
-    if(stoT[sChar]){
-        if(stoT[sChar] !== tChar) return false;
-    }else{
-        stoT[sChar] = tChar
+    if (stoT[sChar]) {
+      if (stoT[sChar] !== tChar) return false;
+    } else {
+      stoT[sChar] = tChar;
     }
 
     // Check t → s mapping
-    if(ttoS[tChar]){
-        if(ttoS[tChar] !== sChar) return false;
-    }else{
-        ttoS[tChar] = sChar
+    if (ttoS[tChar]) {
+      if (ttoS[tChar] !== sChar) return false;
+    } else {
+      ttoS[tChar] = sChar;
     }
   }
-  return true
+  return true;
 }
 
 // Test cases

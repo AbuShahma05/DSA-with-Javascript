@@ -17,9 +17,8 @@ function searchElement(arr) {
     }
   }
 
-  if(!found){
+  if (!found) {
     console.log(-1);
-    
   }
 }
 

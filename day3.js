@@ -20,34 +20,33 @@ let arr = [0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0];
 
 let first = 0;
 let last = 0;
-while(first <arr.length){
-  if(arr[first] == 0){
-    let temp = arr[first]
-    arr[first] = arr[last]
-    arr[last] = temp
-    last++
+while (first < arr.length) {
+  if (arr[first] == 0) {
+    let temp = arr[first];
+    arr[first] = arr[last];
+    arr[last] = temp;
+    last++;
   }
-   first ++
+  first++;
 }
 console.log(arr);
 
 // Left Rotate an Array by One Position
-let arr2 = [1,2,3,4,5]
-let copy = arr2[0]
+let arr2 = [1, 2, 3, 4, 5];
+let copy = arr2[0];
 
-for(let i =0; i<arr2.length-1; i++){
-   arr2[i] = arr2[i+1]
+for (let i = 0; i < arr2.length - 1; i++) {
+  arr2[i] = arr2[i + 1];
 }
-arr2[arr2.length-1] = copy
+arr2[arr2.length - 1] = copy;
 console.log(arr2);
 
-// Right Rotate an Array by One Position 
-let arr3 = [1,2,3,4,5]
+// Right Rotate an Array by One Position
+let arr3 = [1, 2, 3, 4, 5];
 
-let copy1 = arr3[arr3.length-1]
-for(let i = arr3.length-1; i>0; i--){
-  arr3[i] = arr3[i-1]
-} 
-arr3[0] = copy1
+let copy1 = arr3[arr3.length - 1];
+for (let i = arr3.length - 1; i > 0; i--) {
+  arr3[i] = arr3[i - 1];
+}
+arr3[0] = copy1;
 console.log(arr3);
-

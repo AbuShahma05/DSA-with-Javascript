@@ -29,38 +29,38 @@ Explanation:
 - a >= b (no negative results)
 */
 
-var subtractBinary = function(a, b) {
-    let i = a.length - 1;
-    let j = b.length - 1;
-    let borrow = 0;
-    let result = "";
+var subtractBinary = function (a, b) {
+  let i = a.length - 1;
+  let j = b.length - 1;
+  let borrow = 0;
+  let result = "";
 
-    while (i >= 0) {
-        let bitA = parseInt(a[i]);
-        let bitB = j >= 0 ? parseInt(b[j]) : 0;
+  while (i >= 0) {
+    let bitA = parseInt(a[i]);
+    let bitB = j >= 0 ? parseInt(b[j]) : 0;
 
-        bitA -= borrow;
+    bitA -= borrow;
 
-        if (bitA < bitB) {
-            bitA += 2;
-            borrow = 1;
-        } else {
-            borrow = 0;
-        }
-
-        let diff = bitA - bitB;
-        result = diff + result;
-
-        i--;
-        j--;
+    if (bitA < bitB) {
+      bitA += 2;
+      borrow = 1;
+    } else {
+      borrow = 0;
     }
 
-    // Remove leading zeros
-    result = result.replace(/^0+/, '');
-    return result === "" ? "0" : result;
+    let diff = bitA - bitB;
+    result = diff + result;
+
+    i--;
+    j--;
+  }
+
+  // Remove leading zeros
+  result = result.replace(/^0+/, "");
+  return result === "" ? "0" : result;
 };
 
-console.log(subtractBinary("1011", "101"));   
-console.log(subtractBinary("1000", "1"));     
-console.log(subtractBinary("10", "1"));       
-console.log(subtractBinary("111", "111"));    
+console.log(subtractBinary("1011", "101"));
+console.log(subtractBinary("1000", "1"));
+console.log(subtractBinary("10", "1"));
+console.log(subtractBinary("111", "111"));

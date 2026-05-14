@@ -26,29 +26,29 @@ Constraints:
 */
 
 function lengthOfLongestSubstring(s) {
-    let start = 0;
-    let maxLength = 0;
-    let map = {}; // To store character positions
+  let start = 0;
+  let maxLength = 0;
+  let map = {}; // To store character positions
 
-    for (let end = 0; end < s.length; end++) {
-        let char = s[end];
+  for (let end = 0; end < s.length; end++) {
+    let char = s[end];
 
-        // If character seen before and inside the current window
-        if (map[char] !== undefined && map[char] >= start) {
-            start = map[char] + 1;
-        }
-
-        map[char] = end;
-
-        let currentLength = end - start + 1;
-        if (currentLength > maxLength) {
-            maxLength = currentLength;
-        }
+    // If character seen before and inside the current window
+    if (map[char] !== undefined && map[char] >= start) {
+      start = map[char] + 1;
     }
 
-    return maxLength;
+    map[char] = end;
+
+    let currentLength = end - start + 1;
+    if (currentLength > maxLength) {
+      maxLength = currentLength;
+    }
+  }
+
+  return maxLength;
 }
 
-console.log(lengthOfLongestSubstring("abcabcbb")); 
-console.log(lengthOfLongestSubstring("bbbbb"));    
-console.log(lengthOfLongestSubstring("pwwkew"));   
+console.log(lengthOfLongestSubstring("abcabcbb"));
+console.log(lengthOfLongestSubstring("bbbbb"));
+console.log(lengthOfLongestSubstring("pwwkew"));
