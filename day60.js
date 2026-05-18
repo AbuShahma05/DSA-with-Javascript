@@ -1,3 +1,7 @@
+/* 
+Count Digits in a Number
+*/
+
 let num = 259;
 let count = 0;
 

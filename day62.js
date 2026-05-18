@@ -1,3 +1,7 @@
+/* 
+Check Palindrome Number
+*/
+
 let num = 121;
 let copy = num;
 let rev = 0;

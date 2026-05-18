@@ -1,3 +1,7 @@
+/* 
+Find the Second Largest Element in an Array
+*/
+
 let arr = [4, 9, 0, 2, 8, 7, 1];
 
 let firstLargest = -Infinity;
@@ -17,7 +21,10 @@ function findSecondLargest(arr) {
 
 findSecondLargest(arr);
 
-// Edge case problem
+/* 
+Find the Second Largest Element in an Array with edge case problem
+*/
+
 let arr1 = [10, 2, 8, -9, 11, 20, 20];
 
 function secondLargtNum(arr1) {

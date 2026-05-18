@@ -35,13 +35,13 @@ function largestElement(arr2) {
 largestElement(arr2);
 
 /* 
-+infinity ??
+infinity ??
 -infinity ??
 try to find smallest number in an array 
 */
 
 let arr3 = [2, 5, 8, 9, 1];
-let smallestNum = +Infinity;
+let smallestNum = Infinity;
 
 function findSmallestSum(arr3) {
   for (let i = 0; i < arr3.length; i++) {
