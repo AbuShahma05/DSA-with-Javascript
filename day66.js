@@ -1,3 +1,7 @@
+/* 
+Reverse String - LeetCode #344
+*/
+
 let s = ["h", "e", "l", "l", "o"];
 
 function reverseString(s) {
@@ -14,3 +18,4 @@ function reverseString(s) {
 
 reverseString(s);
 console.log(s);
+  
